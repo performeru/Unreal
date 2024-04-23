@@ -1,0 +1,14 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/User/Desktop/Unreal-Engine/UnrealEx/UE5Ex2/Content/BattleMap.umap",
+				"C:/Users/User/Desktop/Unreal-Engine/UnrealEx/UE5Ex2/Content/M_EmissiveProcGrid.uasset",
+				"C:/Users/User/Desktop/Unreal-Engine/UnrealEx/UE5Ex2/Content/MI_EmissiveProcGrid.uasset"
+			]
+		}
+	]
+}
