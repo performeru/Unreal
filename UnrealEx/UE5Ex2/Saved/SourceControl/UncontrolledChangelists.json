@@ -6,6 +6,14 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"C:/Users/User/Desktop/Unreal-Engine/UnrealEx/UE5Ex2/Content/BattleMap.umap",
+				"C:/Users/User/Desktop/Unreal-Engine/UnrealEx/UE5Ex2/Content/ART/Map/BattleMap.umap",
+				"C:/Users/User/Desktop/Unreal-Engine/UnrealEx/UE5Ex2/Content/ART/Map/MI_EmissiveProcGrid.uasset",
+				"C:/Users/User/Desktop/Unreal-Engine/UnrealEx/UE5Ex2/Content/ART/Map/M_EmissiveProcGrid.uasset",
+				"C:/Users/User/Desktop/Unreal-Engine/UnrealEx/UE5Ex2/Content/PROGRAM/Character/C_Hero.uasset",
+				"C:/Users/User/Desktop/Unreal-Engine/UnrealEx/UE5Ex2/Content/PROGRAM/Input/Action/IA_Test.uasset",
+				"C:/Users/User/Desktop/Unreal-Engine/UnrealEx/UE5Ex2/Content/PROGRAM/Input/IMC_Default.uasset",
+				"C:/Users/User/Desktop/Unreal-Engine/UnrealEx/UE5Ex2/Content/PROGRAM/Input/Action/IA_Look.uasset",
+				"C:/Users/User/Desktop/Unreal-Engine/UnrealEx/UE5Ex2/Content/PROGRAM/Input/Action/IA_Move.uasset",
 				"C:/Users/User/Desktop/Unreal-Engine/UnrealEx/UE5Ex2/Content/M_EmissiveProcGrid.uasset",
 				"C:/Users/User/Desktop/Unreal-Engine/UnrealEx/UE5Ex2/Content/MI_EmissiveProcGrid.uasset"
 			]
