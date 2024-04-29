@@ -11,11 +11,15 @@
 				"C:/Users/User/Desktop/Unreal-Engine/UnrealEx/UE5Ex3/Content/PROGRAM/Input/Action/IA_Move.uasset",
 				"C:/Users/User/Desktop/Unreal-Engine/UnrealEx/UE5Ex3/Content/PROGRAM/Input/IMC_Default.uasset",
 				"C:/Users/User/Desktop/Unreal-Engine/UnrealEx/UE5Ex3/Content/ART/Character/Shape_Capsule.uasset",
-				"C:/Users/User/Desktop/Unreal-Engine/UnrealEx/UE5Ex3/Content/Shape_Capsule.uasset",
 				"C:/Users/User/Desktop/Unreal-Engine/UnrealEx/UE5Ex3/Content/ART/Character/M_Color.uasset",
 				"C:/Users/User/Desktop/Unreal-Engine/UnrealEx/UE5Ex3/Content/ART/Character/MI_RED.uasset",
 				"C:/Users/User/Desktop/Unreal-Engine/UnrealEx/UE5Ex3/Content/ART/Character/MI_BLUE.uasset",
-				"C:/Users/User/Desktop/Unreal-Engine/UnrealEx/UE5Ex3/Content/PROGRAM/Character/C_Enemy.uasset"
+				"C:/Users/User/Desktop/Unreal-Engine/UnrealEx/UE5Ex3/Content/PROGRAM/Character/C_Enemy.uasset",
+				"C:/Users/User/Desktop/Unreal-Engine/UnrealEx/UE5Ex3/Content/PROGRAM/Input/Action/IA_Fire.uasset",
+				"C:/Users/User/Desktop/Unreal-Engine/UnrealEx/UE5Ex3/Content/ART/UI/Crosshair.uasset",
+				"C:/Users/User/Desktop/Unreal-Engine/UnrealEx/UE5Ex3/Content/PROGRAM/Input/Action/IA_Aim.uasset",
+				"C:/Users/User/Desktop/Unreal-Engine/UnrealEx/UE5Ex3/Content/PROGRAM/Widget/W_BattleHUD.uasset",
+				"C:/Users/User/Desktop/Unreal-Engine/UnrealEx/UE5Ex3/Content/Shape_Capsule.uasset"
 			]
 		}
 	]
