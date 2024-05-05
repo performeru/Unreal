@@ -6,7 +6,8 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"C:/Users/User/Desktop/Unreal-Engine/UnrealEx/UE5Ex4/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset",
-				"C:/Users/User/Desktop/Unreal-Engine/UnrealEx/UE5Ex4/Content/StarterContent/Maps/Minimal_Default.umap"
+				"C:/Users/User/Desktop/Unreal-Engine/UnrealEx/UE5Ex4/Content/StarterContent/Maps/Minimal_Default.umap",
+				"C:/Users/User/Desktop/Unreal-Engine/UnrealEx/UE5Ex4/Content/StarterContent/Maps/BP_Projectile.uasset"
 			]
 		}
 	]
