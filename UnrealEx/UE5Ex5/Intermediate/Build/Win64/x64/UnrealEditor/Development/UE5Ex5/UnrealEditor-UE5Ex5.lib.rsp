@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-UE5Ex5.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\User\Desktop\Unreal-Engine\UnrealEx\UE5Ex5\Intermediate\Build\Win64\x64\UE5Ex5Editor\Development\Engine\SharedPCH.Engine.Cpp20.InclOrderUnreal5_0.h.obj"
+"C:\Users\User\Desktop\Unreal-Engine\UnrealEx\UE5Ex5\Intermediate\Build\Win64\x64\UnrealEditor\Development\UE5Ex5\MovePlatform.gen.cpp.obj"
+"C:\Users\User\Desktop\Unreal-Engine\UnrealEx\UE5Ex5\Intermediate\Build\Win64\x64\UnrealEditor\Development\UE5Ex5\UE5Ex5.init.gen.cpp.obj"
+"C:\Users\User\Desktop\Unreal-Engine\UnrealEx\UE5Ex5\Intermediate\Build\Win64\x64\UnrealEditor\Development\UE5Ex5\MovePlatform.cpp.obj"
+"C:\Users\User\Desktop\Unreal-Engine\UnrealEx\UE5Ex5\Intermediate\Build\Win64\x64\UnrealEditor\Development\UE5Ex5\UE5Ex5.cpp.obj"
+"C:\Users\User\Desktop\Unreal-Engine\UnrealEx\UE5Ex5\Intermediate\Build\Win64\x64\UnrealEditor\Development\UE5Ex5\Default.rc2.res"
+/OUT:"C:\Users\User\Desktop\Unreal-Engine\UnrealEx\UE5Ex5\Intermediate\Build\Win64\x64\UnrealEditor\Development\UE5Ex5\UnrealEditor-UE5Ex5.lib"
