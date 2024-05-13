@@ -16,6 +16,7 @@ void AMovePlatform::BeginPlay()
 {
 	Super::BeginPlay();
 	
+	MyX = MyVector.X;
 }
 
 // Called every frame
