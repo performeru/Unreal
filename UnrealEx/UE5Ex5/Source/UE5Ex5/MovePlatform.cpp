@@ -15,14 +15,22 @@ AMovePlatform::AMovePlatform()
 void AMovePlatform::BeginPlay()
 {
 	Super::BeginPlay();
-	
-	MyX = MyVector.X;
+
 }
 
 // Called every frame
 void AMovePlatform::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+
+	// 현재 위치 가지고 옴
+	FVector CurrentLocation = GetActorLocation();
+		// 위치에 백터 추가
+	CurrentLocation = CurrentLocation + (PlatformVelocity * DeltaTime);
+
+	// 위치 설정
+	SetActorLocation(CurrentLocation);
+
 
 }
 
