@@ -7,7 +7,9 @@
 			"files": [
 				"C:/Users/User/Desktop/Unreal-Engine/UnrealEx/UE5Ex5/Content/Main.umap",
 				"C:/Users/User/Desktop/Unreal-Engine/UnrealEx/UE5Ex5/Content/BP_ThirdPersonCharacter.uasset",
-				"C:/Users/User/Desktop/Unreal-Engine/UnrealEx/UE5Ex5/Content/SCK_Casual01/Blueprints/ThirdPersonCharacter.uasset"
+				"C:/Users/User/Desktop/Unreal-Engine/UnrealEx/UE5Ex5/Content/SCK_Casual01/Blueprints/ThirdPersonCharacter.uasset",
+				"C:/Users/User/Desktop/Unreal-Engine/UnrealEx/UE5Ex5/Content/BP_MovePlatform.uasset",
+				"C:/Users/User/Desktop/Unreal-Engine/UnrealEx/UE5Ex5/Content/BP_PushingCube.uasset"
 			]
 		}
 	]

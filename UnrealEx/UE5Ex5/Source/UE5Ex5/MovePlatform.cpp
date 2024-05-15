@@ -16,6 +16,8 @@ void AMovePlatform::BeginPlay()
 {
 	Super::BeginPlay();
 
+	StartLocation = GetActorLocation();
+
 }
 
 // Called every frame
@@ -23,13 +25,26 @@ void AMovePlatform::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	// 현재 위치 가지고 옴
+	// 움직이기
+		// 현재 위치 가지고 옴
 	FVector CurrentLocation = GetActorLocation();
 		// 위치에 백터 추가
 	CurrentLocation = CurrentLocation + (PlatformVelocity * DeltaTime);
 
-	// 위치 설정
+		// 위치 설정
 	SetActorLocation(CurrentLocation);
+
+	float DistanceMoved = FVector::Dist(StartLocation, CurrentLocation);
+		// 반대 방향으로 전환
+	if(DistanceMoved > MoveDistance)
+	{
+		FVector MoveDirection = PlatformVelocity.GetSafeNormal();
+		StartLocation = StartLocation + (MoveDirection * MoveDistance);
+		SetActorLocation(StartLocation);
+		PlatformVelocity = -PlatformVelocity;
+
+	}
+
 
 
 }
