@@ -17,6 +17,11 @@ void AMovePlatform::BeginPlay()
 	Super::BeginPlay();
 
 	StartLocation = GetActorLocation();
+	
+	FString Name = GetName();
+
+
+	UE_LOG(LogTemp, Display, TEXT("BeginPlay : %s"), *Name);
 
 }
 
@@ -25,27 +30,33 @@ void AMovePlatform::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	// 움직이기
-		// 현재 위치 가지고 옴
-	FVector CurrentLocation = GetActorLocation();
-		// 위치에 백터 추가
-	CurrentLocation = CurrentLocation + (PlatformVelocity * DeltaTime);
+	MovePlatform(DeltaTime);
+	RotatePlatform(DeltaTime);
+}
 
-		// 위치 설정
+void AMovePlatform::MovePlatform(float DeltaTimne)
+{
+	FVector CurrentLocation = GetActorLocation();
+
+	CurrentLocation = CurrentLocation + (PlatformVelocity * DeltaTimne);
+
 	SetActorLocation(CurrentLocation);
 
 	float DistanceMoved = FVector::Dist(StartLocation, CurrentLocation);
-		// 반대 방향으로 전환
-	if(DistanceMoved > MoveDistance)
+
+	if (DistanceMoved > MoveDistance)
 	{
+		float OverShoot = DistanceMoved - MoveDistance;
+		FString Name = GetName();
+		UE_LOG(LogTemp, Display, TEXT("%s Platform overshot by %f"), *Name, OverShoot);
 		FVector MoveDirection = PlatformVelocity.GetSafeNormal();
 		StartLocation = StartLocation + (MoveDirection * MoveDistance);
 		SetActorLocation(StartLocation);
 		PlatformVelocity = -PlatformVelocity;
-
 	}
-
-
-
 }
 
+void AMovePlatform::RotatePlatform(float DeltaTime)
+{
+	UE_LOG(LogTemp, Display, TEXT("%s Rotating..."), *GetName());
+}
