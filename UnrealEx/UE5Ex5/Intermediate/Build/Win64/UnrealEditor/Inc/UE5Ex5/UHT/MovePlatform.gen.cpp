@@ -9,6 +9,7 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeMovePlatform() {}
 // Cross Module References
+	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FRotator();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UE5EX5_API UClass* Z_Construct_UClass_AMovePlatform();
@@ -37,6 +38,10 @@ void EmptyLinkFunctionForGeneratedCodeMovePlatform() {}
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_MoveDistance_MetaData[];
 #endif
 		static const UECodeGen_Private::FFloatPropertyParams NewProp_MoveDistance;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_RotationVelocity_MetaData[];
+#endif
+		static const UECodeGen_Private::FStructPropertyParams NewProp_RotationVelocity;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
@@ -54,21 +59,29 @@ void EmptyLinkFunctionForGeneratedCodeMovePlatform() {}
 #endif
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMovePlatform_Statics::NewProp_PlatformVelocity_MetaData[] = {
-		{ "Category", "Moving Platform" },
+		{ "Category", "Moving" },
 		{ "ModuleRelativePath", "MovePlatform.h" },
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_AMovePlatform_Statics::NewProp_PlatformVelocity = { "PlatformVelocity", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AMovePlatform, PlatformVelocity), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AMovePlatform_Statics::NewProp_PlatformVelocity_MetaData), Z_Construct_UClass_AMovePlatform_Statics::NewProp_PlatformVelocity_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMovePlatform_Statics::NewProp_MoveDistance_MetaData[] = {
-		{ "Category", "Moving Platform" },
+		{ "Category", "Moving" },
 		{ "ModuleRelativePath", "MovePlatform.h" },
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AMovePlatform_Statics::NewProp_MoveDistance = { "MoveDistance", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AMovePlatform, MoveDistance), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AMovePlatform_Statics::NewProp_MoveDistance_MetaData), Z_Construct_UClass_AMovePlatform_Statics::NewProp_MoveDistance_MetaData) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMovePlatform_Statics::NewProp_RotationVelocity_MetaData[] = {
+		{ "Category", "Rotation" },
+		{ "ModuleRelativePath", "MovePlatform.h" },
+	};
+#endif
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_AMovePlatform_Statics::NewProp_RotationVelocity = { "RotationVelocity", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AMovePlatform, RotationVelocity), Z_Construct_UScriptStruct_FRotator, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AMovePlatform_Statics::NewProp_RotationVelocity_MetaData), Z_Construct_UClass_AMovePlatform_Statics::NewProp_RotationVelocity_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AMovePlatform_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMovePlatform_Statics::NewProp_PlatformVelocity,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMovePlatform_Statics::NewProp_MoveDistance,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMovePlatform_Statics::NewProp_RotationVelocity,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AMovePlatform_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AMovePlatform>::IsAbstract,
@@ -108,9 +121,9 @@ void EmptyLinkFunctionForGeneratedCodeMovePlatform() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Desktop_Unreal_Engine_UnrealEx_UE5Ex5_Source_UE5Ex5_MovePlatform_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AMovePlatform, AMovePlatform::StaticClass, TEXT("AMovePlatform"), &Z_Registration_Info_UClass_AMovePlatform, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMovePlatform), 3688743613U) },
+		{ Z_Construct_UClass_AMovePlatform, AMovePlatform::StaticClass, TEXT("AMovePlatform"), &Z_Registration_Info_UClass_AMovePlatform, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMovePlatform), 1606249434U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Desktop_Unreal_Engine_UnrealEx_UE5Ex5_Source_UE5Ex5_MovePlatform_h_2664416096(TEXT("/Script/UE5Ex5"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Desktop_Unreal_Engine_UnrealEx_UE5Ex5_Source_UE5Ex5_MovePlatform_h_217422970(TEXT("/Script/UE5Ex5"),
 		Z_CompiledInDeferFile_FID_Desktop_Unreal_Engine_UnrealEx_UE5Ex5_Source_UE5Ex5_MovePlatform_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Desktop_Unreal_Engine_UnrealEx_UE5Ex5_Source_UE5Ex5_MovePlatform_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
